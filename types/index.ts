@@ -5,3 +5,10 @@ export interface CustomButtonProps {
   styles?: string;
   type?: "button" | "submit" | null;
 }
+export type CustomFilter = {
+  title: string;
+};
+export type Search = {
+  state: String;
+  setstate: (state: string) => void;
+};
